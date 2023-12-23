@@ -1,15 +1,10 @@
-
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { AdPopup } from './Components/AdPopup';
-import { Navigation } from './Components/Navigation';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { HomePageMain } from "./Components/HomePage/HomePageMain";
 function App() {
   return (
     <div className="App">
-      <AdPopup />
-      <Navigation />
-      
+      <HomePageMain />
     </div>
   );
 }

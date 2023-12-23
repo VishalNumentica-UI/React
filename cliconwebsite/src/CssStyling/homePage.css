@@ -1,0 +1,113 @@
+.adPopup{
+    background-color: #191C1F;
+    color:#FFFF;
+}
+
+.blank_line{
+    border-left:0.1rem solid #FFF; ;
+}
+
+.ad_alignText{
+    display: inline-block;
+    background-color: #F3DE6D;
+    padding:0.2em;
+    color:#191C1F;
+    transform: rotate(-4deg);
+
+}
+
+.adOffer--bold{
+    display: inline-flex;
+    font-size: 1.4em;
+    color:#EBC80C
+}
+.computerAccessories--offer1{
+    background-color: #F7E99E;
+}
+.computerAccessories--offer2{
+background-color:#124261;
+}
+
+.offerBanner{
+    width: 15rem;
+}
+
+
+.ProductItems{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.exploreProduct{
+    border: 0.1rem solid #E4E7E9;
+}
+
+.timer{
+    background-color: #F3DE6D;
+    margin: auto 0;
+}
+
+.df{
+    padding-left: unset;
+}
+
+.productSlider{
+    background-color: #F2F4F5;
+    border-radius: 0.5rem;
+}
+.offerProduct1{
+ background-color:#191C1F;
+ border-radius: 0.5rem;
+}
+
+.offerProduct2{
+    background-color: #F2F4F5;
+    border-radius: 0.5rem;
+}
+
+.circle {
+    background-color: #2DA5F3;
+    width: 5em;
+    right: 2rem;
+    top:1rem;
+    line-height: 5em;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  .text-color{
+    color: #2DA5F3;
+  }
+
+  .layer2--Content span{
+    color:#2DA5F3;
+  }
+
+  .offerTag{
+    background-color:#EFD33D;
+    width: fit-content;
+    border-radius: 0.3rem;
+    padding:0.2rem;
+    top:0.4rem;
+    left:3rem;
+  }
+
+  .offerProduct1--content p{
+     color:  #EBC80C;
+  }
+
+  .offerProduct1--content h3{
+    color:#F2F4F5;
+  }
+  
+  .socialMediaLinks{
+    background-color: #1B6392;
+    color: #FFFF;
+}
+
+.lang_Curr select{
+    color:#FFFF;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
