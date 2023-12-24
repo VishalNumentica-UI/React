@@ -41,3 +41,11 @@
     padding:0.5rem;
     border:0.01rem solid #E4E7E9;
 }
+
+.productDetail{
+    border:0.01rem solid #E4E7E9;
+}
+
+.productDetailImage{
+   max-width: 5rem;
+}

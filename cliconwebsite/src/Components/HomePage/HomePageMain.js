@@ -7,6 +7,13 @@ import { BestDeals } from "./BestDeals";
 import { ShopCategory } from "./ShopCategory";
 import { FeatureProduct } from "./FeatureProduct";
 import { NewProductsBanner } from "./NewProductsBanner";
+import { AdSpecialBanner } from "./AdSpecialBanner";
+import { ComputerAccessories } from "./ComputerAccessories";
+import { ProductSellTypeComponent } from "./ProductSellTypeComponent";
+import { LatestNews } from "./LatestNews";
+import { NewsLetter } from "./NewsLetter";
+import { Footer } from "./Footer";
+
 export function HomePageMain() {
   return (
     <div>
@@ -18,6 +25,12 @@ export function HomePageMain() {
       <ShopCategory />
       <FeatureProduct />
       <NewProductsBanner />
+      <AdSpecialBanner />
+      <ComputerAccessories />
+      <ProductSellTypeComponent />
+      <LatestNews />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }
