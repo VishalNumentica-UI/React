@@ -14,7 +14,7 @@ export function NavigationTabSocialMedia() {
       <Navbar collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            Welcome to Clicon online eCommerce store
+            <p> Welcome to Clicon online eCommerce store </p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

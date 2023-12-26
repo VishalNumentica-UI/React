@@ -36,8 +36,9 @@ export function LatestNews() {
     },
   ];
   return (
-    <Container>
-      <div className="d-flex">
+    <Container className="mt-5 latestNews">
+      <div className="text-center fs-4 ">Latest News</div>
+      <div className="d-flex mt-3 p-4 justify-content-between">
         {latestNewsContent.map((news) => {
           return <EachLatestNews content={news} />;
         })}

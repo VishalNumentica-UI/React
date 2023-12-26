@@ -12,7 +12,7 @@ export function AdSpecialBanner() {
           <h5>Apple M1 Max Chip. 32GB Unified 1TB SSD Storage</h5>
           <ButtonCreation />
         </Col>
-        <Col className="specialOffer--image align-self-center" sm={5}>
+        <Col className="specialOffer--image align-self-center" sm={4}>
           <Image src={mac} alt="" fluid />
         </Col>
       </Row>

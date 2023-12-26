@@ -35,7 +35,7 @@ export function Features() {
   ];
 
   return (
-    <Container>
+    <Container className="mt-3">
       <div class="featureTab d-flex justify-content-between">
         {featuresDetails.map((createFeature) => {
           return <EachFeature feature={createFeature} />;

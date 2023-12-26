@@ -1,5 +1,6 @@
 .EachProductCategory{
-    border:0.1rem solid #E4E7E9
+    border:0.1rem solid #E4E7E9;
+    max-width:10rem;
 }
 
 .offerPercentage{
@@ -48,4 +49,12 @@
 
 .productDetailImage{
    max-width: 5rem;
+}
+
+.latestNews__newspages{
+    max-width: 23rem;
+}
+
+.latestNews__newspages{
+    background-color: #FFF;;
 }

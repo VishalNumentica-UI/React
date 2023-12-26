@@ -6,8 +6,8 @@ export function NewProductsBanner() {
   return (
     <div>
       <Container className="mt-3">
-        <Row className="advertisement_Seperator">
-          <Col className="advertisement__offerProduct1" sm={6}>
+        <Row className="advertisement_Seperator gap-4">
+          <Col className="advertisement__offerProduct1">
             <Row>
               <Col
                 className="adOfferProduct1--content align-self-center p-3"
@@ -27,7 +27,7 @@ export function NewProductsBanner() {
             </Row>
           </Col>
 
-          <Col className="advertisement__offerProduct2" sm={6}>
+          <Col className="advertisement__offerProduct2">
             <Row className="img_content2 align-self-center p-3">
               <Col className="offerProduct2--content" sm={6}>
                 <span>INTRODUCING NEW</span>

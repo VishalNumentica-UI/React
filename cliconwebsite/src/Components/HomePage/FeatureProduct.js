@@ -58,11 +58,11 @@ export function FeatureProduct() {
   ];
   return (
     <div>
-      <Container>
+      <Container className="mt-3">
         <Row>
           <Col xl={3} lg={4}>
-            <div className="discountTab">
-              <span>COMPUTER & ACCESSORIES</span>
+            <div className="discountTab d-flex flex-column justify-content-between">
+              <p>COMPUTER & ACCESSORIES</p>
               <h3>32% Discount</h3>
               <span>For all ellectronics products</span>
               <p>
@@ -72,7 +72,9 @@ export function FeatureProduct() {
               <button class="btn">
                 SHOP NOW &nbsp;<i class="fa-solid fa-arrow-right"></i>
               </button>
-              <Image src={gadgets} alt="" fluid />
+              <div>
+                <Image src={gadgets} alt="" fluid />
+              </div>
             </div>
           </Col>
 

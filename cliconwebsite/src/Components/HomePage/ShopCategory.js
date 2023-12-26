@@ -38,8 +38,9 @@ export function ShopCategory() {
   ];
 
   return (
-    <Container className="mt-3">
-      <div className="d-flex justify-content-between">
+    <Container className="mt-4">
+      <div className="text-center fs-5">Shop with Categorys</div>
+      <div className="d-flex justify-content-between mt-3">
         {categoryList.map((eachproductCategory) => {
           return <ProductCategory productItem={eachproductCategory} />;
         })}

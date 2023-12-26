@@ -10,7 +10,7 @@ export function ProductSellTypeComponent() {
     "NEW ARRIVAL",
   ];
   return (
-    <Container>
+    <Container className="mt-5">
       <div className="d-flex gap-2">
         {productSellTitle.map((title) => {
           return <ProductSellType title={title} />;

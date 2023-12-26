@@ -56,7 +56,7 @@ export function ComputerAccessories() {
     },
   ];
   return (
-    <Container>
+    <Container className="mt-5">
       <Row>
         <Col sm={10}>
           <NavigationTab />
@@ -67,7 +67,7 @@ export function ComputerAccessories() {
             })}
           </div>
         </Col>
-        <Col>
+        <Col sm={2}>
           <div className="computerAccessories--offer1  text-center p-2">
             <Image src={wirelessHeadphone} alt="" />
             <h4> Xiaomi True Wireless Earbuds</h4>

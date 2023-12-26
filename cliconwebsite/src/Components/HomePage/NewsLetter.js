@@ -10,7 +10,7 @@ import {
 } from "../../icons/svgIcons";
 export function NewsLetter() {
   return (
-    <Container className="newsLetter">
+    <Container className="newsLetter mt-4">
       <div className="text-center p-2 mx-auto">
         <p>Subscribe to our newsletter</p>
 

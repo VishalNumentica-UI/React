@@ -5,7 +5,7 @@ import { ButtonCreation } from "../../CommonFunctionalities/ButtonCreation";
 
 export function Hero() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-3">
       <Row>
         <Col md={7} xl={8} className="productSlider ">
           <div className="d-flex">

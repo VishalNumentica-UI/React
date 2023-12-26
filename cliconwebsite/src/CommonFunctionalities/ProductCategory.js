@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import "../CommonFunctionalities/CommonFunctionalities.css";
+
 export function ProductCategory({ productItem }) {
   const { image, title } = productItem;
   return (

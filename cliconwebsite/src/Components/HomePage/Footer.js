@@ -9,48 +9,48 @@ import {
 export function Footer() {
   return (
     <Container className="footer">
-      <Row>
-        <Col>
+      <Row className="p-3">
+        <Col sm={3}>
           <Image src={cliconIcon} alt="" />
           <div className="link--contact mt-4">
-            <span>Customer Supports:</span>
+            <p>Customer Supports:</p>
             <p>(629) 555-0129</p>
-            <span>4517 Washington Ave. Manchester, Kentucky 39495</span>
+            <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
             <p>info@kinbo.com</p>
           </div>
         </Col>
 
-        <Col>
+        <Col sm={2}>
           <div className="link--title">
             <p>TOP CATEGORY</p>
           </div>
           <div className="topCategory--products">
-            <span>Computer & Laptop</span>
-            <span>SmartPhone</span>
-            <span>Headphone</span>
+            <p>Computer & Laptop</p>
+            <p>SmartPhone</p>
+            <p>Headphone</p>
             <p>&mdash; Accessories</p>
-            <span>Camera & Photo</span>
-            <span>TV & Homes</span>
+            <p>Camera & Photo</p>
+            <p>TV & Homes</p>
             <p>Browse All Product &#8594;</p>
           </div>
         </Col>
 
-        <Col>
+        <Col sm={2}>
           <div className="link--title">
             <p>QUICK LINKS</p>
           </div>
           <div className="quicklinks--items d-flex flex-column justify-content-between">
-            <span>Shop Product</span>
-            <span>Shoping Cart</span>
-            <span>Wishlist</span>
-            <span>Compare</span>
-            <span>Track Order</span>
-            <span>Customer Help</span>
-            <span>About Us</span>
+            <p>Shop Product</p>
+            <p>Shoping Cart</p>
+            <p>Wishlist</p>
+            <p>Compare</p>
+            <p>Track Order</p>
+            <p>Customer Help</p>
+            <p>About Us</p>
           </div>
         </Col>
 
-        <Col>
+        <Col sm={2}>
           <div className="link--title">
             <p>DOWNLOAD APP</p>
           </div>
@@ -82,7 +82,7 @@ export function Footer() {
           <div className="link--title">
             <p>POPULAR TAG</p>
           </div>
-          <div className="link--button p-2">
+          <div className="link--button p-2 d-flex flex-wrap gap-2">
             <button>Game</button>
             <button>iPhone</button>
             <button>TV</button>
